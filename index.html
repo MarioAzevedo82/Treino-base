@@ -4,8 +4,20 @@
     <head>
         <title>Quiz para Programadores</title>
         <meta name="description" content="Um quiz interativo para testar conhecimentos">
+        <style>
+            fieldset {
+              border: 1px solid black;
+              padding: 1em;
+              margin-bottom: 1em;
+            }
+          
+            legend {
+              font-weight: bold;
+            }
+        </style>
     </head>
     <body>
+          
         <header>
             <h1>Quiz interativo para Programadores</h1>
             <p>Teste seus cconhecimentos em programação e veja qual a pontuação você consegue fazer!</p>
@@ -143,6 +155,21 @@
                         <li>Java</li>
                     </ol>
                 </details>
+            </section>
+            <!--Formulário de feedback-->
+            <section>
+                <h2>Nos dê o seu feedback</h2>
+                <form>
+                    <fieldset>
+                        <legend>Informações de contato</legend>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome"><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br>
+                        <label for="comentarios">Comentários</label><br>
+                        <textarea name="comentarios" id="comentarios" rows="4" cols="40" placeholder="Digite seus comentários aqui"></textarea>
+                    </fieldset>
+                </form>
             </section>
         </main>
         <footer></footer>
