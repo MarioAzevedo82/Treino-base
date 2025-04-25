@@ -60,3 +60,9 @@ select {
     border: none;
     outline: none;
 }
+
+img {
+    width: 5rem;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
