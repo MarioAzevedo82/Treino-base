@@ -17,7 +17,9 @@ header {
     text-align: center;
 }
 
-h1 {
-    border: 2px solid black;
-   
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
