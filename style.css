@@ -88,3 +88,23 @@ tfoot td {
     background-color: #331F19;
     color: #F4F0EA;
 }
+
+details {
+    background-color: #CCD595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    color: #331F19;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1.5rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
