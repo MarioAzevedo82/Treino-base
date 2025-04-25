@@ -39,11 +39,15 @@ input[type="radio"], input[type="checkbox"] {
     accent-color: #CCD595;
 }
 
-input[type="text"] {
+input[type="text"], input[type="password"], input[type="date"], input[type="email"] {
     width: 100%;
     padding: 0.6rem;
     border: 3px solid #CCD595;
     outline: none;
     border-radius: 5px;
     background-color: transparent;
+}
+
+input::placeholder {
+    color: #CBBBA7;
 }
