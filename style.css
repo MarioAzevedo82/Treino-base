@@ -34,3 +34,7 @@ h2 {
     color: #331F19;
     font-size: 1.2rem;
 }
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #CCD595;
+}
