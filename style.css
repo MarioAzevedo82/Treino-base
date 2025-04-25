@@ -11,6 +11,12 @@ body {
     font-weight: 400;
 }
 
+header {
+    padding: 2rem;
+    background-color: #331F19;
+    text-align: center;
+}
+
 h1 {
     border: 2px solid black;
    
