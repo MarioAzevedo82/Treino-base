@@ -108,3 +108,22 @@ ol {
 ol li {
     padding: 0.2rem;
 }
+
+fieldset {
+    border: 2px solid #CCD595;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+
+legend {
+    color: #331F19;
+    padding: 0 0.5rem;
+}
+
+textarea {
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #CCD595;
+    background-color: transparent;
+}
