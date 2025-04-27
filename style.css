@@ -142,6 +142,14 @@ footer{
     padding: 2rem;
     text-align: center;
 }
+
 .paragrafo-footer {
     color: #f4f0ea;
+    margin: .5rem;
+}
+
+footer a {
+    color: #CCD595;
+    cursor: pointer;
+    
 }
