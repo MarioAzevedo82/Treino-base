@@ -136,3 +136,12 @@ button {
     cursor: pointer;
     color: #331F19;
 }
+
+footer{
+    background-color: #331F19;
+    padding: 2rem;
+    text-align: center;
+}
+.paragrafo-footer {
+    color: #f4f0ea;
+}
