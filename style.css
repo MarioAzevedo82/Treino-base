@@ -127,3 +127,12 @@ textarea {
     border: 2px solid #CCD595;
     background-color: transparent;
 }
+
+button {
+    background-color: #CCD595;
+    border: none;
+    padding: .8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #331F19;
+}
