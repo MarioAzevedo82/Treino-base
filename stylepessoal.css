@@ -34,9 +34,15 @@ fieldset{
     border: 2px solid #CCD595;
     border-radius: 5px;
     padding: 1rem;
-    margin: 5rem;
 }
 
 footer {
+    background-color: #331F19;
+    padding: 2rem;
+    text-align: center;
+}
 
+footer h2 {
+    color: #F4F0EA;
+    margin: .5rem;
 }
