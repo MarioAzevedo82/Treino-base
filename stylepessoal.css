@@ -46,3 +46,8 @@ footer h2 {
     color: #F4F0EA;
     margin: .5rem;
 }
+
+footer a {
+    color: #CCD595;
+    cursor: pointer;
+}
