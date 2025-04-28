@@ -24,3 +24,8 @@ main {
     flex-direction: column;
     gap: .5rem;
 }
+
+h2 {
+    color: #331F19;
+    font-size: 1.2rem;
+}
