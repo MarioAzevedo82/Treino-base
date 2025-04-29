@@ -55,6 +55,7 @@ header {
     height: 20px;
     object-fit: cover;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 main {

@@ -24,15 +24,17 @@ fetch('https://ipapi.co/json/')
   .then(response => response.json())
   .then(data => {
     const cidade = data.city;
-    const codigoPais = data.country_code?.toLowerCase(); // Ex: 'br'
+    const codigoPais = data.country_code?.toLowerCase(); 
 
     if (cidade && codigoPais) {
       const bandeiraURL = `https://flagcdn.com/16x12/${codigoPais}.png`;
+      const mapsURL = `https://www.google.com/maps/search/${encodeURIComponent(cidade)}`;
 
       document.getElementById('cidade').innerHTML = `
         <span>${cidade}</span>
-        <img src="${bandeiraURL}" alt="Bandeira de ${codigoPais}">
-      `;
+        <a href="${mapsURL}" target="_blank" title="Ver no Google Maps">
+          <img src="${bandeiraURL}" alt="Bandeira de ${codigoPais}">
+        </a>`;
     } else {
       document.getElementById('cidade').textContent = 'Cidade não encontrada';
     }
