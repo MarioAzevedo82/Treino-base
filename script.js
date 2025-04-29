@@ -27,3 +27,7 @@ fetch('https://ipapi.co/json/')
         document.getElementById('cidade').textContent = cidade ? cidade: 'Cidade não encontrada'
     })
 
+    .catch(error => {
+        console.error('Erro ao buscar a cidade:', error)
+        document.getElementById('cidade').textContent = 'Erro ao detectar cidade'
+    })
