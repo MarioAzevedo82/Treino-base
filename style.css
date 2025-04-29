@@ -27,9 +27,15 @@ header {
 }
 
 .relogioDigital {
-    font-size: 1rem;
-    color: #ccc;
+    font-size: 1.2rem;
     padding: .5rem 1rem;
+    font-weight: bold;
+}
+
+.display {
+    font-family: 'Courier New', Courier, monospace;
+    min-width: 80px;
+    text-align: center;
 }
 
 main {
