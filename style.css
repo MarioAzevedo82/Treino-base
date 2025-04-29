@@ -38,6 +38,12 @@ header {
     text-align: center;
 }
 
+.cidade {
+    font-size: .8rem;
+    margin-top: 0.3rem;
+    text-align: center;
+}
+
 main {
     padding: 2rem;
     display: flex;
