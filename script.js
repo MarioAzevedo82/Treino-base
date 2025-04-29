@@ -17,6 +17,13 @@ function horaAtual(){
     }
 }
 
-
 horaAtual()
 setInterval(horaAtual, 1000)
+
+fetch('https://ipapi.co/json/')
+    .then(response => response.json())
+    .then(data => {
+        const cidade = data.city;
+        document.getElementById('cidade').textContent = cidade ? cidade: 'Cidade não encontrada'
+    })
+
