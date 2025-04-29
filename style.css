@@ -44,6 +44,19 @@ header {
     text-align: center;
 }
 
+#cidade {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+#cidade img {
+    width: 24px;
+    height: 20px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
 main {
     padding: 2rem;
     display: flex;
