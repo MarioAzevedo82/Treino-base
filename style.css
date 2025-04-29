@@ -16,6 +16,20 @@ header {
     background-color: #331F19;
     text-align: center;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cabecalho{
+    text-align: center;
+    flex-grow: 1;
+}
+
+.relogioDigital {
+    font-size: 1rem;
+    color: #ccc;
+    padding: .5rem 1rem;
 }
 
 main {
